@@ -3,21 +3,14 @@ name = ""
 version = ""
 description = ""
 authors = [
-    {name = "Eduardo da Silva",email = "eduardo.silva@gmail.com"},
+    {name = "dudubarbaro", email = "dudubarbaro"},
 ]
 dependencies = [
-    "django>=4.2.4",
-    "djangorestframework>=3.14.0",
-    "django-cors-headers>=4.2.0",
-    "python-magic>=0.4.27",
-    "Pillow>=10.0.0",
-    "drf-spectacular>=0.26.4",
-    "python-dotenv>=1.0.0",
+    "django>=4.2.5",
+    "setuptools>=68.2.2",
     "netifaces>=0.11.0",
-    "djangorestframework-simplejwt>=5.3.0",
 ]
 requires-python = ">=3.10"
-readme = "README.md"
 license = {text = "MIT"}
 
 [tool.pdm.scripts]
